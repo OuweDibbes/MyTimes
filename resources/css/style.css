@@ -1,0 +1,22 @@
+
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.logo {
+  color: 'MediumAquamarine'
+}
+
+.navigation {
+  display: inline-block;
+}
