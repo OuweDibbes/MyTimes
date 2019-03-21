@@ -1,5 +1,7 @@
+@charset "UTF-8";
+/* CSS Doc */
 
-
+/* Header */
 header {
   display: flex;
   font-family: 'Verdana';
@@ -35,23 +37,36 @@ header nav{
   padding-right: 40px;
 }
 
-.navigation.li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 5px;
+/* Main content */
+
+.content{
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
-  display: flex;
   width: 630px;
 }
 
 .column.medium {
-  display: flex;
   width: 300px;
 }
 
 .column.small {
-  display: flex;
   width: 240px;
 }
