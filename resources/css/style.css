@@ -13,6 +13,19 @@
   text-align: center;
 }
 
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
 /* Header */
 header {
   display: flex;
@@ -58,10 +71,6 @@ header nav{
   margin-bottom: 78;
   margin-left: auto;
   padding-top: 116px;
-}
-
-div{
-  border: 1px solid black;
 }
 
 .column{
